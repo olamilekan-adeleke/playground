@@ -20,21 +20,6 @@ class Solution {
       postInt *= nums[i];
     }
 
-    // for (var i = 0; i < nums.length; i++) {
-    //   bool leftOufOfBound = false;
-    //   bool rightOufOfBound = false;
-
-    //   if (i - 1 < 0) leftOufOfBound = true;
-    //   if (i + 1 > (nums.length - 1)) rightOufOfBound = true;
-
-    //   int prefixValue = leftOufOfBound ? 1 : prefix[i - 1];
-    //   int postfixValue = rightOufOfBound ? 1 : postfix[i + 1];
-
-    //   result.add(postfixValue * prefixValue);
-    // }
-
-    print(result);
-
     return result;
   }
 }
